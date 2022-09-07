@@ -12,3 +12,26 @@ eureka:
 logging:
   level:
     root: INFO
+
+provider0:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+    # NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule default
+
+ribbon:
+  # 对同一台provider最大重试次数，默认0
+  MaxAutoRetries: 0
+  # 用负载均衡重试下一台provider最大次数，默认1
+  MaxAutoRetriesNextServer: 0
+
+feign:
+  client:
+    config:
+      default:
+        # feign设置超时会覆盖ribbon的超时
+        # 连接超时时间
+        connectTimeout: 3000
+        # 读取超时时间
+        readTimeout: 10000
+        # 日志配置级别
+        loggerLevel: full

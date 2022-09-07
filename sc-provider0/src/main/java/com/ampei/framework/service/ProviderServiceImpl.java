@@ -14,13 +14,14 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/home")
-public class ProviderService {
+public class ProviderServiceImpl {
 
     @Autowired
     private ServletWebServerApplicationContext context;
     
     @RequestMapping("/sayHello")
     public String sayhello(@RequestParam(value = "name") String name){
+        System.out.println("I`m provider 0 ,Hello "+name+"! port->"+context.getWebServer().getPort());
         return "I`m provider 0 ,Hello "+name+"! port->"+context.getWebServer().getPort();
     }
 
