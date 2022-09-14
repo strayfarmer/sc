@@ -1,6 +1,7 @@
 package com.ampei.framework.controller;
 
 import com.ampei.framework.service.inter.ProviderService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @description
  * @date 9/5/2022 1:23 PM
  */
+@Slf4j
 @RestController
 @RequestMapping("/home")
 public class ConsumerController {
