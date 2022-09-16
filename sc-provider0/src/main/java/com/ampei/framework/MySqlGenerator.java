@@ -25,8 +25,8 @@ public class MySqlGenerator {
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
         final String projectPath = System.getProperty("user.dir");
-        gc.setOutputDir(projectPath + "/src/main/java");
-        gc.setAuthor("zkb");
+        gc.setOutputDir(projectPath + "/sc-provider0/src/main/java");
+        gc.setAuthor("ampei");
         gc.setOpen(false);
         // service 命名方式
         gc.setServiceName("%sService");
@@ -47,16 +47,16 @@ public class MySqlGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/900?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false");
+        dsc.setUrl("jdbc:mysql://47.98.111.183:3306/ampei?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false");
         // dsc.setSchemaName("public");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("baishou888");
+        dsc.setPassword("wtt520");
         mpg.setDataSource(dsc);
 
         // 包配置
         PackageConfig pc = new PackageConfig();
-        pc.setParent("com.zkb");
+        pc.setParent("com.ampei.framework");
         pc.setEntity("model");
         pc.setService("service");
         pc.setServiceImpl("service.impl");
@@ -82,7 +82,7 @@ public class MySqlGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输出文件名 ， 如果你 Entity 设置了前后缀、此处注意 xml 的名称会跟着发生变化！！
-                return projectPath + "/src/main/resources/mappers/"
+                return projectPath + "/sc-provider0/src/main/resources/mappers/"
                         + "/" + tableInfo.getEntityName() + "Mapper" + StringPool.DOT_XML;
             }
         });

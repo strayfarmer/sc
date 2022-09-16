@@ -1,5 +1,6 @@
-package com.ampei.framework.service;
+package com.ampei.framework.service.impl;
 
+import com.ampei.framework.service.ProviderService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext;
@@ -16,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 @RequestMapping("/home")
-public class ProviderServiceImpl {
+public class ProviderServiceImpl implements ProviderService {
 
     @Autowired
     private ServletWebServerApplicationContext context;
