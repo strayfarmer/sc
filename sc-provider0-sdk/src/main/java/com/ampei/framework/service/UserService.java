@@ -5,13 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * @author pam
- * @version 1.0
- * @description
- * @date 9/5/2022 1:23 PM
+ * @author ampei
+ * @since 2022-09-14
  */
-@FeignClient(value = "provider0")
-public interface ProviderService {
+@FeignClient(value = "provider0", contextId = "UserService")
+public interface UserService {
 
     @RequestMapping("/home/sayHello")
     String sayhello(@RequestParam(value = "name") String name);

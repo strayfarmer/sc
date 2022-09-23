@@ -6,36 +6,10 @@ spring:
     # 应用名称
     name: provider0
   datasource:
-    # mysql5.x 配置，高版本需要加useSSL=false
-    #url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&useSSL=false
-    # mysql8.0 需要加&useSSL=false&serverTimezone=UTC
-    url: jdbc:mysql://47.98.111.183:3306/ampei?zeroDateTimeBehavior=convertToNull&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
     username: root
     password: wtt520
-    # mysql8.0 驱动
+    url: jdbc:mysql://47.98.111.183:3306/ampei?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&rewriteBatchedStatements=true&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
-    # mysql5.x 驱动
-    #driver-class-name: com.mysql.jdbc.Driver
-    debug: false
-    #Druid#
-    name: test
-    type: com.alibaba.druid.pool.DruidDataSource
-    filters: stat
-    maxActive: 20
-    initialSize: 1
-    maxWait: 60000
-    minIdle: 1
-    timeBetweenEvictionRunsMillis: 60000
-    minEvictableIdleTimeMillis: 300000
-    validationQuery: select 'x'
-    testWhileIdle: true
-    testOnBorrow: false
-    testOnReturn: false
-    poolPreparedStatements: true
-    maxOpenPreparedStatements: 20
-    jackson:
-      date-format: yyyy-MM-dd HH:mm:ss
-      time-zone: GMT+8
 
 # eureka 配置
 eureka:
@@ -44,18 +18,18 @@ eureka:
       defaultZone: http://ampei:123456@localhost:8761/eureka
 
 mybatis-plus:
-  configuration:
-    map-underscore-to-camel-case: true
-    auto-mapping-behavior: full
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  mapper-locations: classpath*:mapper/**/*Mapper.xml
+  mapper-locations: classpath:mapper/**/*Mapper.xml
   global-config:
-    # 逻辑删除配置
     db-config:
-      # 删除前
-      logic-not-delete-value: 1
-      # 删除后
-      logic-delete-value: 0
+      #主键类型  0:"数据库ID自增",1:"该类型为未设置主键类型", 2:"用户输入ID",3:"全局唯一ID (数字类型唯一ID)", 4:"全局唯一ID UUID";
+      id-type: assign_id
+      # 默认数据库表下划线命名
+      table-underline: true
+  configuration:
+    # 返回类型为Map,显示null对应的字段
+    call-setters-on-nulls: true
+    # 这个配置会将执行的sql打印出来，在开发或测试的时候可以用
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 logging:
   level:

@@ -1,4 +1,4 @@
-package com.ampei.framework.service.impl;
+package com.ampei.framework.service;
 
 import com.ampei.framework.service.ProviderService;
 import lombok.extern.slf4j.Slf4j;

@@ -1,0 +1,221 @@
+13:05:23:746 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+13:13:19:788 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+13:32:13:457 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+13:33:15:359 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+13:33:27:400 [main] INFO  com.ampei.framework.ConsumerStarter - No active profile set, falling back to default profiles: default
+13:33:29:307 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b253e43a-148c-3db2-b474-cee45284b76d
+13:33:30:009 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+13:33:30:030 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+13:33:30:030 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:33:30:031 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+13:33:30:519 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:33:30:519 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3088 ms
+13:33:30:678 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+13:33:30:699 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6a3fbcb1
+13:33:30:972 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:33:31:020 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:39:17:698 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+13:45:55:707 [main] INFO  com.ampei.framework.ConsumerStarter - No active profile set, falling back to default profiles: default
+13:45:57:942 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b253e43a-148c-3db2-b474-cee45284b76d
+13:45:58:569 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+13:45:58:583 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+13:45:58:583 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:45:58:583 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+13:45:59:008 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:45:59:008 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3273 ms
+13:45:59:137 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+13:45:59:154 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3380ca3d
+13:45:59:404 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:45:59:447 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:46:26:816 [main] INFO  com.ampei.framework.ConsumerStarter - No active profile set, falling back to default profiles: default
+13:46:28:928 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b253e43a-148c-3db2-b474-cee45284b76d
+13:46:29:539 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+13:46:29:552 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+13:46:29:552 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:46:29:552 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+13:46:30:012 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:46:30:013 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3171 ms
+13:46:30:141 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+13:46:30:158 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@616a06e3
+13:46:30:411 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:46:30:456 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:47:02:647 [main] INFO  com.ampei.framework.ConsumerStarter - No active profile set, falling back to default profiles: default
+13:47:04:374 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b253e43a-148c-3db2-b474-cee45284b76d
+13:47:05:003 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+13:47:05:017 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+13:47:05:018 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:47:05:019 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+13:47:05:528 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:47:05:529 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2855 ms
+13:47:05:725 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+13:47:05:762 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@16b3c905
+13:47:06:092 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:47:06:135 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:59:23:397 [main] INFO  com.ampei.framework.ConsumerStarter - No active profile set, falling back to default profiles: default
+13:59:25:093 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b253e43a-148c-3db2-b474-cee45284b76d
+13:59:25:674 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+13:59:25:688 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+13:59:25:688 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:59:25:689 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+13:59:26:118 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:59:26:119 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2696 ms
+13:59:26:248 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+13:59:26:264 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@697a0948
+13:59:26:512 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:59:26:558 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:04:46:884 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+14:06:14:380 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+14:06:46:965 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+14:09:03:710 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+14:09:05:077 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b0ebf9c2-81c3-35cd-9e96-984489de0816
+14:09:05:233 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.ampei.framework.service.ProviderService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:09:05:609 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7901 (http)
+14:09:05:622 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7901"]
+14:09:05:623 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:09:05:623 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+14:09:05:883 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:09:05:884 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2144 ms
+14:09:06:005 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:09:06:021 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@673e76b3
+14:09:07:901 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+14:09:08:189 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:09:08:414 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:09:10:556 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+14:09:12:198 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+14:09:12:342 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+14:09:12:463 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+14:09:12:530 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+14:09:13:258 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:09:13:258 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:09:13:480 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:09:13:481 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:09:13:858 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+14:09:14:287 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:09:14:287 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:09:14:288 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:09:14:288 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:09:14:288 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:09:14:288 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:09:14:288 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:09:18:543 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+14:09:18:554 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:09:18:568 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1663567758564 with initial instances count: 0
+14:09:18:570 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application PROVIDER0 with eureka with status UP
+14:09:18:573 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1663567758573, current=UP, previous=STARTING]
+14:09:18:577 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER0/localhost:provider0:7901: registering service...
+14:09:18:606 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7901"]
+14:09:18:643 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7901 (http) with context path ''
+14:09:18:644 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 7901
+14:09:20:280 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+14:09:20:291 [main] INFO  com.ampei.framework.Provider0Starter - Started Provider0Starter in 21.377 seconds (JVM running for 24.476)
+14:09:21:215 [RMI TCP Connection(4)-169.254.54.132] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:09:21:215 [RMI TCP Connection(4)-169.254.54.132] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:09:21:230 [RMI TCP Connection(4)-169.254.54.132] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+14:09:33:705 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application PROVIDER0 with eureka with status DOWN
+14:09:33:706 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER0/localhost:provider0:7901: registering service...
+14:09:33:713 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:09:33:718 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+14:09:36:722 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+14:09:40:813 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+14:11:10:029 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+14:11:12:424 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b0ebf9c2-81c3-35cd-9e96-984489de0816
+14:11:12:608 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.ampei.framework.service.ProviderService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:11:13:019 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7901 (http)
+14:11:13:034 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7901"]
+14:11:13:034 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:11:13:035 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+14:11:13:320 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:11:13:320 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3242 ms
+14:11:13:453 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:11:13:470 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@554188ac
+14:11:15:422 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+14:11:15:818 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:11:16:176 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:11:18:713 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+14:11:20:547 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+14:11:20:687 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+14:11:20:804 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+14:11:20:872 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+14:11:21:568 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:11:21:568 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:11:21:779 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:11:21:779 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:11:22:162 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+14:11:22:615 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:11:22:615 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:11:22:615 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:11:22:615 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:11:22:615 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:11:22:616 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:11:22:616 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:11:26:805 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+14:11:26:808 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:11:26:814 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1663567886812 with initial instances count: 0
+14:11:26:816 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application PROVIDER0 with eureka with status UP
+14:11:26:817 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1663567886817, current=UP, previous=STARTING]
+14:11:26:821 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER0/localhost:provider0:7901: registering service...
+14:11:26:848 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7901"]
+14:11:26:890 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7901 (http) with context path ''
+14:11:26:891 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 7901
+14:11:28:627 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+14:11:28:630 [main] INFO  com.ampei.framework.Provider0Starter - Started Provider0Starter in 26.043 seconds (JVM running for 31.202)
+14:11:29:329 [RMI TCP Connection(4)-169.254.54.132] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:11:29:330 [RMI TCP Connection(4)-169.254.54.132] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:11:29:345 [RMI TCP Connection(4)-169.254.54.132] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+14:11:56:829 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:11:56:832 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:11:56:834 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:11:56:842 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:11:56:843 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:11:56:844 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:11:56:845 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:12:00:917 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER0/localhost:provider0:7901: registering service...
+14:12:30:947 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:12:30:949 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:12:30:949 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:12:30:950 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:12:30:951 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:12:30:952 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:12:30:953 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:12:35:060 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER0/localhost:provider0:7901: registering service...
+14:13:05:067 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:13:05:068 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:13:05:069 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:13:05:069 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:13:05:069 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:13:05:070 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:13:05:070 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:13:09:177 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER0/localhost:provider0:7901: registering service...
+14:13:39:118 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:13:39:120 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:13:39:120 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:13:39:120 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:13:39:120 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:13:39:120 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:13:39:121 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:13:43:267 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER0/localhost:provider0:7901: registering service...
+14:14:13:216 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:14:13:217 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:14:13:217 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:14:13:217 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:14:13:217 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:14:13:217 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:14:13:217 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:14:17:185 [SpringContextShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application PROVIDER0 with eureka with status DOWN
+14:14:17:185 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PROVIDER0/localhost:provider0:7901: registering service...
+14:14:17:201 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:14:17:208 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+14:14:20:211 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+14:14:24:324 [SpringContextShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+14:14:48:664 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default
+14:23:41:744 [main] INFO  com.ampei.framework.Provider0Starter - No active profile set, falling back to default profiles: default

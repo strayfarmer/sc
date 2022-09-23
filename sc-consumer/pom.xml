@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>sc</artifactId>
-        <groupId>org.example</groupId>
+        <groupId>com.ampei.framework</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>cn.ampei.framework</groupId>
+    <groupId>com.ampei.framework</groupId>
     <artifactId>sc-consumer</artifactId>
     <version>1.0.0</version>
     <name>consumer</name>
@@ -27,7 +27,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>cn.ampei.framework</groupId>
+            <groupId>com.ampei.framework</groupId>
             <artifactId>sc-provider0</artifactId>
             <version>1.0.0</version>
         </dependency>

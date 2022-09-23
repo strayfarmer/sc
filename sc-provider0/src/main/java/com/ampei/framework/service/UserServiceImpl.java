@@ -1,8 +1,9 @@
-package com.ampei.framework.service.impl;
+package com.ampei.framework.service;
 
 import com.ampei.framework.model.User;
 import com.ampei.framework.mapper.UserMapper;
 import com.ampei.framework.service.UserService;
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +16,10 @@ import org.springframework.stereotype.Service;
  * @since 2022-09-14
  */
 @Service
-public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
+public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService, IService<User> {
 
+    @Override
+    public String sayhello(String name) {
+        return null;
+    }
 }

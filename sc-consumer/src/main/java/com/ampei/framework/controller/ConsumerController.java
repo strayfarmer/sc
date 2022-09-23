@@ -1,11 +1,12 @@
 package com.ampei.framework.controller;
 
-import com.ampei.framework.service.inter.ProviderService;
+import com.ampei.framework.service.ProviderService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
 
 /**
  * @author pam
@@ -18,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/home")
 public class ConsumerController {
 
-    @Autowired
+    @Resource
     private ProviderService providerService;
 
     @RequestMapping("/hello")
