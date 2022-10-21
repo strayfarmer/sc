@@ -3,11 +3,6 @@ server:
 spring:
   application:
     name: consumer
-#  datasource:
-#    username: root
-#    password: wtt520
-#    url: jdbc:mysql://47.98.111.183:3306/ampei?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&rewriteBatchedStatements=true&serverTimezone=Asia/Shanghai
-#    driver-class-name: com.mysql.cj.jdbc.Driver
 
 # eureka 配置
 eureka:

@@ -3,35 +3,12 @@ HELP.md
 !**/src/main/**
 !**/src/test/**
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
 ### IntelliJ IDEA ###
-.idea
 *.iws
 *.iml
 *.ipr
+.idea
+logs
+*/target
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
 
-### VS Code ###
-.vscode/
-sc-consumer/target/*
-sc-eureka/target/*
-sc-provider0/target/*
-.DS_Store
-
-### UI folder ###
-src/main/resources/static/
