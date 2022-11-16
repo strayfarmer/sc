@@ -1,6 +1,7 @@
-package com.ampei.framework.controller;
+package com.ampei.framework.consumer;
 
 import com.ampei.framework.service.ProviderService;
+import com.ampei.framework.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -21,9 +22,16 @@ public class ConsumerController {
 
     @Resource
     private ProviderService providerService;
+    @Resource
+    private UserService userService;
 
     @RequestMapping("/hello")
     public String hello(@RequestParam String name){
         return providerService.sayhello(name);
+    }
+
+    @RequestMapping("/user")
+    public String findByName(@RequestParam String name){
+        return userService.findByName(name);
     }
 }

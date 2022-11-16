@@ -23,35 +23,17 @@ import lombok.EqualsAndHashCode;
 @TableName("t_user")
 public class User extends Model<User> {
 
-    private static final long serialVersionUID = 1L;
-
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
-
     private String username;
-
-    private String password;
-
     private String nickname;
-
     private String gender;
-
     private String telephone;
-
     private LocalDateTime registerdate;
-
     private String address;
-
     @TableField("addTime")
     private LocalDateTime addTime;
-
     @TableField("updateTime")
     private LocalDateTime updateTime;
-
-
-    @Override
-    protected Serializable pkVal() {
-        return this.id;
-    }
 
 }

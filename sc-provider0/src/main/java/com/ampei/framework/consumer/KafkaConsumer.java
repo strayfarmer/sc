@@ -1,10 +1,8 @@
-package com.ampei.framework.controller;
+package com.ampei.framework.consumer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.kafka.annotation.KafkaListener;
-import org.springframework.stereotype.Component;
 
 /**
  * // Map map = JSONObject.parseObject(value, Map.class);

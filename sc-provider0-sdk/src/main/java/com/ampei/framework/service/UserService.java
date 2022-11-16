@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(value = "provider0", contextId = "UserService")
 public interface UserService {
 
-    @RequestMapping("/home/sayHello")
-    String sayhello(@RequestParam(value = "name") String name);
+    @RequestMapping("/user/findByName")
+    String findByName(@RequestParam(value = "name") String name);
 
 }
